@@ -1,11 +1,11 @@
-# **project**
+# **Sudoku**
 
-#### description, date
+#### Game where players input #'s 1-9, 11/10/2020
 
-#### **By Jerrod Styrk**
+#### **By Taylor Delph, Jerrod Styrk**
 
 ## Decription
-- add
+- This is a Sudoku puzzle generator. The user will input 1 value from a range of values 1-9 into each box. No numbers can repeat for each row, column, or 3-by-3 grid.
 
 ## Setup
 
@@ -28,7 +28,7 @@
 
 ## For support
 
-_jstyrk@citadel.edu_
+_jstyrk@citadel.edu_ _taylulzcode@gmail.com_
 
 ## Technologies and tools used
 
@@ -54,4 +54,4 @@ _jstyrk@citadel.edu_
 
 ### License
 
-[MIT] Copyright (c) 2020 **Jerrod Styrk**
+[MIT] Copyright (c) 2020 **Taylor Delph, Jerrod Styrk**
