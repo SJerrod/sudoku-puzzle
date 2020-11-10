@@ -15,8 +15,9 @@ td {
   height: 30px;
 }
 
-body {
-  background-color: white;
+input {
+  width: 30px;
+  height: 30px;
 }
 
 td:first-child {
