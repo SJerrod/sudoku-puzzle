@@ -1,3 +1,5 @@
+// import Triangle from './triangle.js';
+import Rows from './sudoku.js';
 import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -6,6 +8,7 @@ import './css/styles.css';
 $(document).ready(function() {
   $("#sudokuGrid").submit(function(event) {
     event.preventDefault();
+    let r1 = new Rows();
     //row1
     let r1c1g1 = $('.r1.c1.g1').val();
     let r1c2g1 = $('.r1.c2.g1').val();
@@ -16,7 +19,9 @@ $(document).ready(function() {
     let r1c7g3 = $('.r1.c7.g3').val();
     let r1c8g3 = $('.r1.c8.g3').val();
     let r1c9g3 = $('.r1.c9.g3').val();
-    console.log(r1c1g1, r1c2g1, r1c3g1, r1c4g2, r1c5g2, r1c6g2, r1c7g3, r1c8g3, r1c9g3);
+    r1.addRow(r1c1g1, r1c2g1, r1c3g1, r1c4g2, r1c5g2, r1c6g2, r1c7g3, r1c8g3, r1c9g3);
+    // console.log(r1c1g1, r1c2g1, r1c3g1, r1c4g2, r1c5g2, r1c6g2, r1c7g3, r1c8g3, r1c9g3);
+    console.log(r1.row1);
     //row2
     let r2c1g1 = $('.r2.c1.g1').val();
     let r2c2g1 = $('.r2.c2.g1').val();
@@ -107,3 +112,4 @@ $(document).ready(function() {
     console.log(r9c1g7, r9c2g7, r9c3g7, r9c4g8, r9c5g8, r9c6g8, r9c7g9, r9c8g9, r9c9g9);
   });
 });
+

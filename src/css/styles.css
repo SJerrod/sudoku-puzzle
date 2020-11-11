@@ -11,13 +11,14 @@ button {
 }
 
 td {
-  width: 30px;
-  height: 30px;
+  width: 36px;
+  height: 36px;
 }
 
 input {
   width: 30px;
   height: 30px;
+  padding: 3px;
 }
 
 td:first-child {
